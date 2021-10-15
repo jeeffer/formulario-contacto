@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="css/estilo.css">-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+    <!--<script src="javascript/form.js"></script>-->
+    <form method="post" action="index.php"></form>
+</head>
+<body>
+    <header >
+        <!-- menu superior -->
+        <nav >
+            <a href="index.html" class="text-white"> <strong>Home</strong> </a>
+            <a id="n_s" href="#" class="text-white" target="_blank"><strong>Nuestros Servicios</strong></a>
+            
+            <a href="#" class="text-white" target="_blank"><strong>Contacto</strong> </a>
+        </nav>
+        <div id="search">
+            <input  type="search" id= "campotex" placeholder="Buscador">
+            <button type="search" id="boton_buscar"> <img src="img/pngwing.com (2).png" width="30px" alt=""></button> 
+        </div>
+        <div id="sign_up">
+            <!-- inscribirse -->
+            <button type="button"> <a href="registro.html">SIGN UP</a> </button> 
+        </div>
+    </header>
+    <div id = "cont">
+        <!-- Datos contacto y mensaje-->
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" name="nombre" placeholder="Nombre completo">
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
+        <!--<input id="submit" name="submit" type="submit" value="Enviar">-->
+        <button id="submit" name="submit" onclick="click_boton()"><a href="mailto:jeeffer@gmail.com">Enviar</a></button>
+        
+        
+        
+    </form>
+</div>
+</body>
+</html>
